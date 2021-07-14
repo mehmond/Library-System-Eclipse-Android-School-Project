@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.librarysystem.LibraryMain" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item android:id="@+id/bnr" android:title="Borrowed and Returned"></item>
+    <item android:id="@+id/studinfo" android:title="Student Information"></item>
+    <item android:id="@+id/bookinv" android:title="Book Inventory"></item>
+    <item android:id="@+id/over" android:title="Overdue Penalties"></item>
+    <item android:id="@+id/reports" android:title="Reports"></item>
+    <item android:id="@+id/supplier" android:title="Supplier"></item>
+
+</menu>
